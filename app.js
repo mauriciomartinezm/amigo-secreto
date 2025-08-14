@@ -26,11 +26,15 @@ function actualizarListaAmigos() {
 
 function sortearAmigo() {
     if (amigos.length == 0) {
+        document.getElementById("resultado").innerHTML = "";
         alert("No hay amigos agregados");
     }
     else {
         let numeroAleatorio = Math.floor(Math.random() * amigos.length);
         let amigoAleatorio = amigos[numeroAleatorio];
-        document.getElementById("resultado").innerHTML = amigoAleatorio;
+        lista = document.getElementById("listaAmigos");
+        lista.innerHTML = "";
+        amigos = [];
+        document.getElementById("resultado").innerHTML = `El amigo sorteado es ${amigoAleatorio}`;
     }
 }

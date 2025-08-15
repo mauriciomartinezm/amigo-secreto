@@ -13,10 +13,13 @@ Permite ingresar nombres, evitar duplicados y elegir aleatoriamente un ganador.
 - Interfaz accesible y fácil de usar.
 
 ## 📂 Estructura del proyecto
-.
+
 ├── index.html # Estructura principal de la aplicación
+
 ├── style.css # Estilos personalizados
+
 ├── app.js # Lógica de la aplicación
+
 └── assets/ # Imágenes y recursos
 
 ## 🛠️ Tecnologías utilizadas
